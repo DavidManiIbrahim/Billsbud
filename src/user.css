@@ -1,0 +1,97 @@
+body{
+    overflow: hidden;
+}
+
+img{
+    display: none;
+}
+
+
+
+
+
+
+@media all and (orientation:portrait) {
+    body{
+        overflow: hidden;
+    }
+
+    .user{
+        width: 10%;
+        height: 10%;
+        float: left;
+        color: rgb(74, 235, 74);
+    }
+
+    .menu{
+        width: 30px;
+        position: relative;
+        top: -30px;
+        float: right;
+    }
+    
+    img{
+        display: block;
+        cursor: pointer;
+        /* border: 1px solid; */
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        color: #28a745;
+        top: 30%;
+        position: relative;
+    }
+    
+h1{
+    position: relative;
+    margin-top: -15%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    /* color: #28a745; */
+
+}
+
+    .categories{
+        /* display: flex; */
+        width: 100%;
+        left: -2px;
+        position: absolute;
+        top:20%;
+        /* border: 1px solid; */
+    }
+
+    .bill{
+        display: flex;
+        margin-top: 20%;
+        justify-content: space-between;
+    }
+
+    .bill-container{
+        /* border: 1px solid; */
+        /* padding: 20px; */
+        width: 35%;
+        text-align: center;
+    }
+
+    .hospital-icon{
+        width: 40%;
+        position: relative;
+        margin-top: -55%;
+    }
+
+    footer{
+        border: 1px solid;
+        position: relative;
+        top: 560px;
+        height: 10vh;
+    }
+
+
+
+
+
+
+
+
+}
